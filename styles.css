@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+
+* {
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+body {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    border: 2px solid #4098c7;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 3px;    
+    background-color: rgb(237, 234, 39);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    color: #4098c7;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 10px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: #4098c7;
+}
+
+button {
+    border: 1px solid #4098c7;
+    border-radius: 5px;
+    background-color: rgb(227, 248, 255);
+    color: #4098c7;
+    text-align: center;
+    padding: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #4098c7;
+}
+
+#form-tasks{
+    text-align: center;
+}
+
+#check-tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: rgb(138, 162, 175);
+}
+
