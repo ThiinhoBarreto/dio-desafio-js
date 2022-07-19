@@ -1,2 +1,7 @@
 # dio-desafio-js
-Repositório com desafios em JS do Bootcamp Santander/Dio.
+
+#Olá, pessoas!! 😊
+
+Este repositório contém alguns desafios do curso de introdução ao JS do Bootcamp Santander/Dio.
+
+Obrigado!! 👍👍
